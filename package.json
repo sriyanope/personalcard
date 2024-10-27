@@ -1,6 +1,6 @@
 {
 	"name": "sriya",
-	"version": "2.4.0",
+	"version": "2.5.0",
 	"description": "Sriya's business card",
 	"main": "./bin/card.mjs",
 	"bin": {
