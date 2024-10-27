@@ -16,21 +16,20 @@ const options = {
 const data = {
 	name: chalk.white('           Sriya Nannapaneni'),
 	handle: chalk.white('@sriyanope'),
-	labelWork: chalk.white.bold('    Currently working as:'),
+	labelWork: chalk.white.bold('    Work:'),
 	work: chalk.white('Applied ML Research Assistant @ SMU'),
 	labelGitHub: chalk.white.bold('  GitHub:'),
 	github: chalk.gray('https://github.com/') + chalk.green('bnb'),
 	labelLinkedIn: chalk.white.bold('LinkedIn:'),
 	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('sriya-n9103'),
 	labelCard: chalk.white.bold('    Card:'),
-	npx: `${chalk.red('npx')} ${chalk.white('sriyanope')}`,
+	npx: `${chalk.red('npx')} ${chalk.white('sriya')}`,
 };
 
 // Actual strings we're going to output
 const newline = '\n';
 const heading = `${data.name} / ${data.handle} / ${data.shorthandle}`;
 const working = `${data.labelWork}  ${data.work}`;
-const npming = `${data.labelnpm}  ${data.npm}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
 const carding = `${data.labelCard}  ${data.npx}`;
@@ -41,8 +40,6 @@ const output =
 	newline +
 	newline + 
 	working +
-	newline + 
-	npming +
 	newline + 
 	githubing +
 	newline + 
