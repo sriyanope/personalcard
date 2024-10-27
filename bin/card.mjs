@@ -16,7 +16,7 @@ const options = {
 const data = {
 	name: chalk.white('           Sriya Nannapaneni'),
 	handle: chalk.white('@sriyanope'),
-    labelSchool: chalk.white.bold('  Education:'),
+    labelSchool: chalk.white.bold('Education:'),
     school: chalk.white('Information Systems (Biz Analytics + AI) @ SMU'),
 	labelWork: chalk.white.bold('    Work:'),
 	work: chalk.white('Applied ML Research Assistant @ SMU'),
