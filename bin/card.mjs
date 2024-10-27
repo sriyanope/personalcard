@@ -21,7 +21,7 @@ const data = {
 	labelWork: chalk.white.bold('    Work:'),
 	work: chalk.white('Applied ML Research Assistant @ SMU'),
 	labelGitHub: chalk.white.bold('  GitHub:'),
-	github: chalk.gray('https://github.com/') + chalk.green('bnb'),
+	github: chalk.gray('https://github.com/') + chalk.green('sriyanope'),
 	labelLinkedIn: chalk.white.bold('LinkedIn:'),
 	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('sriya-n9103'),
 	labelCard: chalk.white.bold('    Card:'),
