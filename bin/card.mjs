@@ -16,6 +16,8 @@ const options = {
 const data = {
 	name: chalk.white('           Sriya Nannapaneni'),
 	handle: chalk.white('@sriyanope'),
+    labelSchool: chalk.white.bold('  Education:'),
+    school: chalk.white('Information Systems (Biz Analytics + AI) @ SMU'),
 	labelWork: chalk.white.bold('    Work:'),
 	work: chalk.white('Applied ML Research Assistant @ SMU'),
 	labelGitHub: chalk.white.bold('  GitHub:'),
@@ -29,6 +31,7 @@ const data = {
 // Actual strings we're going to output
 const newline = '\n';
 const heading = `${data.name} / ${data.handle}`;
+const schooling = `${data.labelSchool}  ${data.school}`;
 const working = `${data.labelWork}  ${data.work}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
@@ -39,6 +42,8 @@ const output =
 	heading + 
 	newline +
 	newline + 
+    schooling +
+    newline +
 	working +
 	newline + 
 	githubing +
