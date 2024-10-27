@@ -4,8 +4,6 @@ l
 import chalk from 'chalk';
 import boxen from 'boxen';
 
-const chalk = require('chalk');
-const boxen = require('boxen');
 
 // Define options for Boxen
 const options = {
