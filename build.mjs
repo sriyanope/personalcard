@@ -13,37 +13,25 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-	name: chalk.white('           Tierney Cyren'),
-	handle: chalk.white('bitandbang'),
-	shorthandle: chalk.white('bnb'),
-	work: chalk.white('Principal Developer Advocate at Twilio (::)'),
-	twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-	mastodon: chalk.gray('https://mastodon.social/') + chalk.magenta('@bnb'),
-	npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-	github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-	web: chalk.cyan('https://bnb.im'),
-	npx: `${chalk.red('npx')} ${chalk.white('bitandbang')}`,
-	labelWork: chalk.white.bold('    Work:'),
-	labelTwitter: chalk.white.bold(' Twitter:'),
-	labelMastodon: chalk.white.bold('Mastodon:'),
-	labelnpm: chalk.white.bold('     npm:'),
+	name: chalk.white('           Sriya Nannapaneni'),
+	handle: chalk.white('@sriyanope'),
+	labelWork: chalk.white.bold('    Currently working as:'),
+	work: chalk.white('Applied ML Research Assistant @ SMU'),
 	labelGitHub: chalk.white.bold('  GitHub:'),
+	github: chalk.gray('https://github.com/') + chalk.green('bnb'),
 	labelLinkedIn: chalk.white.bold('LinkedIn:'),
-	labelWeb: chalk.white.bold('     Web:'),
+	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('sriya-n9103'),
 	labelCard: chalk.white.bold('    Card:'),
+	npx: `${chalk.red('npx')} ${chalk.white('sriyanope')}`,
 };
 
 // Actual strings we're going to output
 const newline = '\n';
 const heading = `${data.name} / ${data.handle} / ${data.shorthandle}`;
 const working = `${data.labelWork}  ${data.work}`;
-const twittering = `${data.labelTwitter}  ${data.twitter}`;
-const mastodoning = `${data.labelMastodon}  ${data.mastodon}`;
 const npming = `${data.labelnpm}  ${data.npm}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
-const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
 // Put all our output together into a single variable so we can use boxen effectively
@@ -52,19 +40,13 @@ const output =
 	newline +
 	newline + // Add one whole blank line
 	working +
-	newline + // data.labelWork + data.work
-	twittering +
-	newline + // data.labelTwitter + data.twitter
-	mastodoning +
-	newline + // data.labelTwitter + data.twitter
+	newline + // working 
 	npming +
 	newline + // data.labelnpm + data.npm
 	githubing +
 	newline + // data.labelGitHub + data.github
 	linkedining +
 	newline + // data.labelLinkedIn + data.linkedin
-	webing +
-	newline +
 	newline + // data.labelWeb + data.web
 	carding; // data.labelCard + data.npx
 
