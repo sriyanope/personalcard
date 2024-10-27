@@ -17,7 +17,7 @@
 	"author": "Sriya",
 	"license": "MIT",
 	"dependencies": {
-		"boxen": "^5.0.0",
+		"boxen": "^5.1.2",
 		"chalk": "^4.1.0"
 	}
 }
