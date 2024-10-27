@@ -28,7 +28,7 @@ const data = {
 
 // Actual strings we're going to output
 const newline = '\n';
-const heading = `${data.name} / ${data.handle} / ${data.shorthandle}`;
+const heading = `${data.name} / ${data.handle}`;
 const working = `${data.labelWork}  ${data.work}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
